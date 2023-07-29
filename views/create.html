@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web News</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="site-title">
+                <a href="/">News</a>
+                <p>SK Website</p>
+            </div>
+            <ul>
+                <li>
+                    <a href="/">Home News</a>
+                </li>
+                <li>
+                    <a href="/about">About</a>
+                </li>
+                <li>
+                    <a href="/news/create">Create News</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="create-blog content">
+            <form>
+                <label for="title">News title:</label>
+                <input type="text" id="title" name="title" required>
+                <label for="snippet">News tag:</label>
+                <input type="text" id="snippet" name="snippet" required>
+                <label for="body">News body:</label>
+                <textarea id="body" name="body" required></textarea>
+                <button>Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <footer>
+            Copyright &copy; SK 2023
+        </footer>
+    </footer>
+</body>
+
+</html>
